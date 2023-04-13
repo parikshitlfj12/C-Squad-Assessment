@@ -1,0 +1,43 @@
+.mainDiv {
+    font-family: 'Tomorrow';
+    background-color: #14172B;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.innerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 18px;
+    color: white;
+    width: 90vw;
+}
+
+.heading>p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ECF0FF;
+    opacity: 0.9;
+}
+
+.assetsDiv {
+    margin-top: 148px;
+    width: 90vw;
+    height: 300px;
+    display: flex;
+    column-gap: 70px;
+}

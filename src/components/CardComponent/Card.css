@@ -1,0 +1,74 @@
+.parentDiv{
+    position: relative;
+    height: 350px;
+    width: 290px;
+}
+
+.upperDiv {
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assetInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    
+    background-image: url("../../assets/images/Vector.png");
+}
+
+.assetInner>div {
+    text-align: center;
+}
+
+.assetInner> :first-child {
+    margin-top: 72px;
+}
+
+.assetHeadingStyles {
+    width: 231px;
+    height: 31px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 31px;
+    color: #737BAE;
+    opacity: 0.9;
+}
+
+.boxDiv {
+    position: relative;
+    width: 242px;
+    height: 40px;
+    background: #14172B;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    color: #ECF0FF;
+    opacity: 0.9;
+    column-gap: 12px;
+}
+
+.percentLTP {
+    position: absolute;
+    top: 6px;
+    right: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 31px;
+    opacity: 0.9;
+}
