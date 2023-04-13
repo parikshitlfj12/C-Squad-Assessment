@@ -92,7 +92,7 @@ const cardDetails: Token[] = [
         id:"SHIB",
         token: "Shiba Inu (SHIB)",
         mainIcon: ShibuBigger,
-        LTP: "$0.00000001948",
+        LTP: "$0.00001948",
         percentChange: "-8.1%",
         hasPriceIncrease: false,
         lotValue: "$60,000",
@@ -104,12 +104,12 @@ const cardDetails: Token[] = [
     },
 ];
 
-const Main = () => {
+const Main: React.FC = () => {
     return (
         <div className="mainDiv">
             <div className="innerDiv">
                 <div className="heading">
-                    <img src={TrendingLogo} alt="" height="14px" width="14px" />
+                    <img src={TrendingLogo} alt="" height="16px" width="16px" />
                     <p>Trending Assets</p>
                 </div>
                 <div className="assetsDiv">
